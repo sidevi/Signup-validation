@@ -1,5 +1,5 @@
   import Image from "next/image";     
-import signup from "../"
+import signup from "../assests/img/signup.jpg"
 
 
 
