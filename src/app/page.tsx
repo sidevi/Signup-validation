@@ -6,9 +6,14 @@ import Signup from "./component/Signup/Signup";
 
 export default function Home() {
   return (
-    <div>   
-<Signup/>
-    </div>
+<div> 
+  <Signup/>
+
+</div>
+
+  
+
+    
     
   );
 }

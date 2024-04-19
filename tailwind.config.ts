@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/public/images/signup.jpg')",
+
       },
     },
   },
