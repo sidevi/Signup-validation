@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-      
+        'hero-pattern': "url('/public/images/signup.jpg')",
       },
     },
   },
