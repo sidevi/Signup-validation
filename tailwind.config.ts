@@ -8,17 +8,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    
-    screen :{  
-
-'tablet': '640px',
-
-'laptop': ' 1024px',
-
-
-'desKtop' : '1280px'
-    },
-    
+   
     
     extend: {
       backgroundImage: {

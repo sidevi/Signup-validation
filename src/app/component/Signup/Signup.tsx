@@ -6,13 +6,53 @@ import signup from "../../../../public/images/signup.jpg";
 export default function Signup() {
   
   return (
-  <section className="lg:bg-gray-50 min-h-screen flex items-center justify-center ">    
+
+<section className=" ">    
   
-  
-  <div className="relative bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center overflow-hidden  sm:flex p-13">
+  <div className="flex justify-center items-center h-screen px-6   bg-gradient-to-r from-pink-500 via-red-500 to-pink-50 ">  
+
+<div className="w-full xl:w-3/4 lg:w-11/12 flex sm:flex  ">    
+
+
+<div className=" w-full h-auto   hidden lg:block lg:w-fit  bg-cover rounded-b-lg">
+        <Image
+          src={signup}
+          alt="signup"
+          width={1000} 
+          height={1000}
+          className="bg-cover rounded-l-lg"
+        />
+      </div>
+<div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none ">   
+    <div className="text-center  my-9 ">   
+
+okosun
+
+    </div>
+  you welcome
+  </div> 
+
+
+</div>
+
+
+  </div>
+
 
   
-      <div className=" z-10 ">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      {/* <div className="  ">
         <h3>
           Welcome to Classroom
           Join over 10,000 learners over the world and enjoy online education!
@@ -23,19 +63,10 @@ export default function Signup() {
       </div>
 
     
-      <div className=" absolute top-0 right-0 z-0 ">
-        <Image
-          src={signup}
-          alt="signup"
-          width={1000}
-          height={1000}
-          className="bg-cover"
-        />
-      </div>
 
     </div>
 
-
+ */}
 
 
 
