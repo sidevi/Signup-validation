@@ -1,18 +1,17 @@
 "use client";
 import Image from "next/image";
 import signup from "../../../../public/images/signup.jpg";
-
-
+import Authlayout from "../auth/Authlayout";
+import Link from "next/link"
 export default function Signup() {
   
   return (
-
+<Authlayout>
 <section className=" ">    
   
-  <div className="flex justify-center items-center h-screen px-6   bg-gradient-to-r from-pink-500 via-red-500 to-pink-50 ">  
-
-<div className="w-full xl:w-3/4 lg:w-11/12 flex sm:flex  ">    
-
+  <div className="    flex items-center justify-center w-full h-svh  bg-gradient-to-r from-pink-500 via-red-500 to-pink-50 ">  
+  {/* flex justify-center items-center h-screen px-6  */}
+<div className=" w-full xl:w-3/4 lg:w-11/12 flex sm:flex  ">    
 
 <div className=" w-full h-auto   hidden lg:block lg:w-fit  bg-cover rounded-b-lg">
         <Image
@@ -27,9 +26,10 @@ export default function Signup() {
     <div className="text-center  my-9 ">   
 
 okosun
-
+<Link href="./"> signup </Link>
     </div>
   you welcome
+ 
   </div> 
 
 
@@ -82,7 +82,7 @@ okosun
   
   
     </section>
-      
+    </Authlayout>
    
 
     ) 
