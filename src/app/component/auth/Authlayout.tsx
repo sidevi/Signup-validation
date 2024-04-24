@@ -1,5 +1,11 @@
 "use client"
 import React from "react"
+import Mybg from "../Mybg"
+
+
+
+
+
 
 
 type AuthlayoutProps = {  
@@ -16,12 +22,15 @@ children : React.ReactNode;
  
 
 
-    export default function Authlayout(  {children} :AuthlayoutProps){  
+export default function Authlayout(  {children} :AuthlayoutProps){  
 
 return(   
 
-<div className=" bg-white"> 
+<  div className=" "> 
+<Mybg/>
 
+      
+   
     {children}
 </div>
 
