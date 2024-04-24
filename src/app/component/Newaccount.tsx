@@ -1,7 +1,7 @@
  "use client"
  import Authlayout from "./auth/Authlayout"
  
- export default function NewAccount() {  
+ export default function Newaccount() {  
 return(  
 
 <Authlayout>

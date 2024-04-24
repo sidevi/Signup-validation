@@ -26,7 +26,7 @@ export default function Signup() {
     <div className="text-center  my-9 ">   
 
 okosun
-<Link href="./"> signup </Link>
+<Link href="./../Newaccount.tsx"> signup </Link>
     </div>
   you welcome
  
