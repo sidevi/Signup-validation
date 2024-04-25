@@ -26,7 +26,7 @@ export default function Authlayout(  {children} :AuthlayoutProps){
 
 return(   
 
-<  div className=" "> 
+<  div className=" flex items-center justify-center w-full h-svh  bg-gradient-to-r from-pink-500 via-red-500 to-pink-50  "> 
 <Mybg/>
 
       
