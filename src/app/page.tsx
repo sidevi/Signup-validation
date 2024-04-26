@@ -1,18 +1,13 @@
-"use client"
+"use client";
 
 import Image from "next/image";
-import Signup from "./component/auth/Signup";
-import { BrowserRouter } from "react-router-dom";
+import Signup from "./auth/Signup";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <BrowserRouter>  
-    
     <div>
       <Signup />
-    
     </div>
-      </BrowserRouter>
-
   );
 }
