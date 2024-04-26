@@ -27,7 +27,7 @@ export default function Signup() {
 //       </Authlayout>
  <div> 
 
-  <Link href="/Newaccount">hdhdh </Link>
+  <Link href="">hdhdh </Link>
  </div>
 
 
