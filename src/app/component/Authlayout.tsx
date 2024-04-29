@@ -7,9 +7,9 @@ type AuthlayoutProps = {
 
 export default function AuthLayout({ children }: AuthlayoutProps) {
   return (
-    <main className="flex  items-center bg-red-500">
+    <main className="">
 			<Mybg/> 
-			<div className="w-full">{children}</div>
+			<div className="bg-red-500">{children}</div>
 		
 		</main>
   );
