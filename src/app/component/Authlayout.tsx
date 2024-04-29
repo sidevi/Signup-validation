@@ -1,21 +1,16 @@
-import Image from "next/image"
-import Mybg from "./Mybg"
+import Image from "next/image";
+import Mybg from "./Mybg";
 
-type Authlayoutprop = {  
-children : React.ReactNode;
+type AuthlayoutProps = {
+  children: React.ReactNode;
+};
 
-
-}
-
-export  default function Authlayout ({children}:Authlayoutprop) {   
-
-
-
-    return( 
-        <div className=" flex items-center justify-center w-full h-svh">  
-<Mybg/>
-         
-            <div className=" bg-black"> {children} </div>
-        </div>
-    )
+export default function AuthLayout({ children }: AuthlayoutProps) {
+  return (
+    <main className="flex  items-center bg-red-500">
+			<Mybg/> 
+			<div className="w-full">{children}</div>
+		
+		</main>
+  );
 }
