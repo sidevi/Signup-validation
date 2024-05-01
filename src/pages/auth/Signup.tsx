@@ -8,8 +8,10 @@ export default function Signup() {
     <Authlayout>
       <div className=" ">
         promise
-        <Link href="/"> PROMISE</Link>
+        <Link href="/auth/New"> PROMISE</Link>
       </div>
+    
+    
     </Authlayout>
   );
 }
