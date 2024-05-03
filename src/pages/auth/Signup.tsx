@@ -1,17 +1,15 @@
-"use cleint";
+
 
 import Link from "next/link";
-import Authlayout from "@/app/component/Authlayout";
+import Authlayout from "@/pages/auth/Authlayout";
 
 export default function Signup() {
   return (
     <Authlayout>
-      <div className=" ">
+      <div className=" grid h-{100ox} bg-red-400">
         promise
         <Link href="/auth/New"> PROMISE</Link>
       </div>
-    
-    
     </Authlayout>
   );
 }

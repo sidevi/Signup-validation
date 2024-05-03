@@ -7,7 +7,7 @@ import signup from "./../.../../../../public/images/signup.jpg"
     return(  
 
 
-        <div className=" w-full h-auto   hidden lg:block lg:w-fit  bg-cover rounded-b-lg">
+        <div className="  w-fit">
         <Image
           src={signup}
           alt="signup"
