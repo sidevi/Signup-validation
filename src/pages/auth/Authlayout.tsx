@@ -15,25 +15,15 @@ export default function AuthLayout({ children }: AuthlayoutProps) {
         height: "100vh",
       }}
     >
-      {/* <Mybg /> */}
-      {/* <div   className="bg-green-500 w-full h-full">jdkk</div> */}
+    
 
       <div
-        style={{
-          background: "green",
-          height: "100%",
-          width: "100%",
-        }}
+      className="bg-pink-500"
       >
       <Mybg/>
       </div>
       <div
-        style={{
-          background: "red",
-          height: "100%",
-          width: "100%",
-          overflow: "auto",
-        }}
+      className="bg-pink-500"
       >
         {children}
       </div>
